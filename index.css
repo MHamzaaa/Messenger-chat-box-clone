@@ -10,18 +10,14 @@ html {
   /* 10px=1rem */
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .container {
+  flex-flow: column;
   width: 100vw;
   height: 100vh;
-  border: 2px solid whitesmoke;
   /* flex-direction: column; */
 }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -34,6 +30,7 @@ body{
   height: 10%;
   display: flex;
   flex-flow: row;
+  width: 38rem;
   border-bottom: 2px solid gray;
 }
 
@@ -224,6 +221,8 @@ body{
 .footer {
   height: 10%;
   display: flex;
+  flex-flow: row;
+  width: 38rem;
 }
 .bone {
   width: 40%;
